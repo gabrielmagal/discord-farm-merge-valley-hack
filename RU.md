@@ -53,6 +53,7 @@
 3) Щелкните слева на серой линии, чтобы поставить точку останова
 
    ![find](https://cdn.discordapp.com/attachments/1252922369736179776/1259919838445572166/image.png?ex=668d6f49&is=668c1dc9&hm=baecef3c34ea71e33878d8165f9ae4852e97229387d317a6841c0cdd298feb63&)
+</details>
 
 ### Ход 3 - Обход игры (this._data.reward)
 <details>
