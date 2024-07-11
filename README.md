@@ -130,4 +130,4 @@ If I was able to help you, please star the repository. This will help me in my f
 
 [Telegram](https://t.me/earluv_dev)
 
-[Discord](https://discord.com/users/211148434273468426) | @earluv
+[Support Discord](https://discord.gg/A6PuSnGQ)
