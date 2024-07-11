@@ -6,7 +6,9 @@
 - 5 minutes of free time 
 
 
-## Enums to use in bypass
+## What you can get with a hack: (enums)
+<details> 
+  <summary>Click to expand the information</summary>
 
 | Parameter |   Is reward   | Description                |
 | :-------- | :------- | :------------------------- |
@@ -15,6 +17,23 @@
 | `crates` | True | Crates with items |
 | `energy` | True | Energy for activities |
 | `tickets` | True | Train tickets |
+| `wheat`         | True      | Wheat                 |
+| `egg`           | True      | Egg                   |
+| `sunflower`     | True      | Sunflower             |
+| `milk`          | True      | Milk                  |
+| `sugarcane`     | True      | Sugarcane             |
+| `bacon`         | True      | Bacon                 |
+| `carrot`        | True      | Carrot                |
+| `goatmilk`      | True      | Goat milk             |
+| `soybeans`      | True      | Soybeans              |
+| `wool`          | True      | Wool                  |
+| `corn`          | True      | Corn                  |
+| `fur`           | True      | Fur                   |
+| `coffeebeans`   | True      | Coffee beans          |
+| `tomato`        | True      | Tomato                |
+| `avocado`       | True      | Avocado               |
+| `truffle`       | True      | Truffle               |
+</details>
 
 ## Game functions for issuing rewards
 
@@ -61,7 +80,7 @@ This post is made for educational purposes to understand how to bypass the game.
 <details>
   <summary>Click to expand the information</summary>
 
-1) Find any resource on the map (coin, gem, crate, energy, ticket)
+1) Find any resource on the map
 
    ![find](images/3_1.png)
 2) Click on it and you will see information in the `Scope` window
