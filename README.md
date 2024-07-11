@@ -36,7 +36,7 @@ This post is made for educational purposes to understand how to bypass the game.
 2) Open the browser console `(F12, Ctrl+Shift+I or Cmd+Opt+I)`
 3) Go to the `Source` tab
 4) Find the folder `appid.discordsays.com` and open it
-   ![find](images\1_1.jpg)
+   ![find](images/1_1.jpg)
 
 </details>
 
@@ -46,14 +46,14 @@ This post is made for educational purposes to understand how to bypass the game.
 
 1) Find the file `main.js` and open it
 
-   ![find](images\2_1.png)
+   ![find](images/2_1.png)
 2) Press `Ctrl+F` and search for `this._data.reward` if you need to issue items, or `this._data.expReward` if you need to issue XP
 
-   ![find](images\2_2.png)
+   ![find](images/2_2.png)
 
 3) Click to the left on the gray line to place a breakpoint
 
-   ![find](images\2_3.png)
+   ![find](images/2_3.png)
 
 </details>
 
@@ -63,17 +63,17 @@ This post is made for educational purposes to understand how to bypass the game.
 
 1) Find any resource on the map (coin, gem, crate, energy, ticket)
 
-   ![find](images\3_1.png)
+   ![find](images/3_1.png)
 2) Click on it and you will see information in the `Scope` window
-   ![find](images\3_2.jpg)
+   ![find](images/3_2.jpg)
 4) Click on the triangles where it says `this` and go to `reward`
-   ![find](images\3_3.jpg)
+   ![find](images/3_3.jpg)
 5) ^ In the `amount` field, enter the value you want to issue, and in the `key` field, enter the resource name as indicated in the table above
 6) Press 1 and then 2 in sequence
-   ![find](images\3_4.jpg)
+   ![find](images/3_4.jpg)
 7) Watch as the items start being issued
 
-   ![find](images\3_5.jpg)
+   ![find](images/3_5.jpg)
 </details>
 
 ### Step 3 - Bypassing the game `(this._data.expReward)`
@@ -82,19 +82,19 @@ This post is made for educational purposes to understand how to bypass the game.
 
 1) Merged 3 objects on the map
 
-   ![find](images\3_6.jpg)
+   ![find](images/3_6.jpg)
 2) Click on it and you will see information in the `Scope` window
    
-   ![find](images\3_2.jpg)
+   ![find](images/3_2.jpg)
 4) Click on the triangles where it says `this` and go to `_data`
 
-   ![find](images\3_8.jpg)
+   ![find](images/3_8.jpg)
 5) ^ In the `expReward` field
 6) Press 1 and then 2 in sequence
-   ![find](images\3_4.jpg)
+   ![find](images/3_4.jpg)
 7) Watch as the items start being issued
 
-   ![find](images\3_9.jpg)
+   ![find](images/3_9.jpg)
 </details>
 
 ### Result 🎉
