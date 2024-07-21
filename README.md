@@ -128,6 +128,6 @@ If I was able to help you, please star the repository. This will help me in my f
 
 ### Contact Me:
 
-[Telegram](https://t.me/earluv_dev)
+[Telegram](https://t.me/earluv_tech)
 
 [Support Discord](https://discord.gg/A6PuSnGQ)
