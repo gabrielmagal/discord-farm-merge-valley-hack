@@ -68,7 +68,7 @@ This post is made for educational purposes to understand how to bypass the game.
    ![find](images/2_1.png)
 2) Press `Ctrl+F` and search the function what you need (upper menu)
  
-   ![find](images/2_2.png)
+   ![find](images/4.png)
  
 3) Click to the left on the gray line to place a breakpoint
  
