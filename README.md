@@ -39,8 +39,8 @@
  
 | Function |    | Description                               |
 | :-------- | :----- |:------------------------------------------|
-| `return this[_0x86f480(0x25b2)]['reward'];`      | | Function to issue items from enums        |
-| `return this[_0x59c98f(0x25b2)][_0x59c98f(0x4b90)];` || Function to Spawn Item
+| `return this['_data']['reward'];`      | | Function to issue items from enums        |
+| `return this[_0x315223(0x340f)]['expReward'];` || Function to Spawn Item
  
 ## Process for obtaining game privileges
 ```
