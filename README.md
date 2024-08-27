@@ -41,7 +41,8 @@
 | :-------- | :----- |:------------------------------------------|
 | `return this['_data']['reward'];`      | | Function to issue items from enums        |
 | `return this[_0x315223(0x340f)]['expReward'];` || Function to Spawn Item
- 
+| `return this[_0x610e65(0x5528)];` || Function to delete item
+
 ## Process for obtaining game privileges
 ```
 This post is made for educational purposes to understand how to bypass the game. I do not encourage using this method and am not responsible for your actions.
@@ -95,6 +96,27 @@ This post is made for educational purposes to understand how to bypass the game.
    ![find](images/3_5.jpg)
 </details>
  
+### Step 3 - Bypassing the game `return this[_0x610e65(0x5528)];`
+<details>
+  <summary>Click to expand the information</summary>
+ 
+   1) Set a breakpoint at return this[_0x610e65(0x5528)];
+
+   2) Hold the shovel over anything to trigger the breakpoint
+
+   3) Switch from "Source" to "Console"
+
+   Paste this in
+   ```js
+   for (let i = 0; i < this._nonShovelableCells.length; i++) {
+        this._nonShovelableCells[i].content = null
+   }
+   ```
+   4) Wait for it to save
+   5) Restart TWICE (Load in, wait, leave, load in again)
+
+</details>
+
 ### Result 🎉
  
 If you did everything correctly, you should see the items you specified.
