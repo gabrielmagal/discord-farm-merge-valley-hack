@@ -39,9 +39,7 @@
  
 | Function |    | Description                               |
 | :-------- | :----- |:------------------------------------------|
-| `return this['_data']['reward'];`      | | Function to issue items from enums        |
-| `return this[_0x315223(0x340f)]['expReward'];` || Function to Spawn Item
-| `return this[_0x610e65(0x5528)];` || Function to delete item
+| `return this['_data']['rewar' + 'd']`      | | Function to give away any item       |
 
 ## Process for obtaining game privileges
 ```
@@ -54,30 +52,37 @@ This post is made for educational purposes to understand how to bypass the game.
  
 1) Join any voice channel and start the activity
 2) Open the browser console `(F12, Ctrl+Shift+I or Cmd+Opt+I)`
-3) Go to the `Source` tab
-4) Find the folder `appid.discordsays.com` and open it
-   ![find](images/1_1.jpg)
+3) Go to the `Console` tab
+4) Paste `return this['_data']['rewar' + 'd']`
  
 </details>
  
-### Step 2 - Finding the required function and setting breakpoints 
+### Step 2 - Disable Debugging mode
+<details>
+  <summary>Click to expand the information</summary>
+ 
+1) After pasted and pressed `Enter` click  on the triangle 
+   ![find](images/v2_2_1.jpg)
+</details>
+
+### Step 2 - Find function in the code and set a breakpoint
 <details>
   <summary>Click to expand the information</summary>
  
 1) Find the file `main.js` and open it
  
    ![find](images/2_1.png)
-2) Press `Ctrl+F` and search the function what you need (upper menu)
+2) Press `Ctrl+F` and search the function `return this['_data']['rewar' + 'd']`
  
-   ![find](images/4.png)
+   ![find](images/v2_3_2.jpg)
  
 3) Click to the left on the gray line to place a breakpoint
  
-   ![find](images/2_3.png)
+   ![find](images/v2_3_3.jpg)
  
 </details>
  
-### Step 3 - Bypassing the game `(return this[_0x86f480(0x25b2)]['reward'];)`
+### Step 3 - Bypassing the game
 <details>
   <summary>Click to expand the information</summary>
  
@@ -95,27 +100,7 @@ This post is made for educational purposes to understand how to bypass the game.
  
    ![find](images/3_5.jpg)
 </details>
- 
-### Step 3 - Bypassing the game `return this[_0x610e65(0x5528)];`
-<details>
-  <summary>Click to expand the information</summary>
- 
-   1) Set a breakpoint at return this[_0x610e65(0x5528)];
 
-   2) Hold the shovel over anything to trigger the breakpoint
-
-   3) Switch from "Source" to "Console"
-
-   Paste this in
-   ```js
-   for (let i = 0; i < this._nonShovelableCells.length; i++) {
-        this._nonShovelableCells[i].content = null
-   }
-   ```
-   4) Wait for it to save
-   5) Restart TWICE (Load in, wait, leave, load in again)
-
-</details>
 
 ### Result 🎉
  
