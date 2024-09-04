@@ -53,7 +53,7 @@ This post is made for educational purposes to understand how to bypass the game.
 1) Join any voice channel and start the activity
 2) Open the browser console `(F12, Ctrl+Shift+I or Cmd+Opt+I)`
 3) Go to the `Console` tab
-4) Paste `return this['_data']['rewar' + 'd']`
+4) Paste `Function.prototype.constructor = function(){}`
  
 </details>
  
