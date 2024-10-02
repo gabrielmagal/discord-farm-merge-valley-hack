@@ -72,7 +72,7 @@ This post is made for educational purposes to understand how to bypass the game.
 1) Find the file `main.js` and open it
  
    ![find](images/2_1.png)
-2) Press `Ctrl+F` and search the function `return this['_data']['rewar' + 'd']`
+2) Press `Ctrl+F` and search the function `return this['_data'][_0x4ba038(0x9c5) + 'd'];` (Updated 10/02/2024)
  
    ![find](images/v2_3_2.jpg)
  
