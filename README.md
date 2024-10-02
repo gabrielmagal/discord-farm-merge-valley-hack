@@ -39,7 +39,7 @@
  
 | Function |    | Description                               |
 | :-------- | :----- |:------------------------------------------|
-| `return this['_data']['rewar' + 'd']`      | | Function to give away any item       |
+| `return this['_data'][_0x4ba038(0x9c5) + 'd'];`      | | Function to give away any item       |
 
 ## Process for obtaining game privileges
 ```
